@@ -1,0 +1,16 @@
+{
+  "model": "qwen2.5-coder:7b-instruct",
+  "created_at": "2026-04-10T21:43:05.872985Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\"items\": [{\"name\": \"Butter Croissant\", \"size\": null, \"quantity\": 4, \"modifiers\": []}], \"total_price\": 14.0}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 7827716459,
+  "load_duration": 86600334,
+  "prompt_eval_count": 1174,
+  "prompt_eval_duration": 924053834,
+  "eval_count": 39,
+  "eval_duration": 6785263288
+}

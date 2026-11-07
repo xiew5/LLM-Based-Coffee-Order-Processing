@@ -1,0 +1,16 @@
+{
+  "model": "qwen2.5-coder:7b-instruct",
+  "created_at": "2026-04-10T21:50:01.353054Z",
+  "message": {
+    "role": "assistant",
+    "content": "```json\n{\n  \"items\": [\n    {\n      \"name\": \"Chai Latte\",\n      \"size\": \"Tall\",\n      \"quantity\": 2,\n      \"modifiers\": []\n    },\n    {\n      \"name\": \"Frappe (Mocha)\",\n      \"size\": \"Venti\",\n      \"quantity\": 5,\n      \"modifiers\": [\"Cold Foam\"]\n    },\n    {\n      \"name\": \"Matcha Latte\",\n      \"size\": \"Short\",\n      \"quantity\": 1,\n      \"modifiers\": []\n    },\n    {\n      \"name\": \"Earl Grey Tea\",\n      \"size\": \"Venti\",\n      \"quantity\": 3,\n      \"modifiers\": []\n    }\n  ],\n  \"total_price\": 42.5\n}\n```"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 30964331917,
+  "load_duration": 86540333,
+  "prompt_eval_count": 1183,
+  "prompt_eval_duration": 952426083,
+  "eval_count": 165,
+  "eval_duration": 29827768999
+}

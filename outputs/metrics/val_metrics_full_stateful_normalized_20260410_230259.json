@@ -1,0 +1,117 @@
+{
+  "overall": {
+    "full_exact_match": 0.1,
+    "item_match_precision": 0.4333333333333333,
+    "item_match_recall": 0.4166666666666667,
+    "item_match_f1": 0.42333333333333334,
+    "field_name_accuracy": 0.6416666666666667,
+    "field_size_accuracy": 0.675,
+    "field_quantity_accuracy": 0.625,
+    "field_modifiers_accuracy": 0.4666666666666667,
+    "total_price_exact": 0.1,
+    "total_price_absolute_error": 10.405
+  },
+  "subsets": {
+    "correction": {
+      "full_exact_match": 0.0,
+      "item_match_precision": 0.3333333333333333,
+      "item_match_recall": 0.27777777777777773,
+      "item_match_f1": 0.3,
+      "field_name_accuracy": 0.5,
+      "field_size_accuracy": 0.5,
+      "field_quantity_accuracy": 0.6666666666666666,
+      "field_modifiers_accuracy": 0.4444444444444444,
+      "total_price_exact": 0.0,
+      "total_price_absolute_error": 6.016666666666666
+    },
+    "cancellation": {
+      "full_exact_match": 0.0,
+      "item_match_precision": 0.3333333333333333,
+      "item_match_recall": 0.29166666666666663,
+      "item_match_f1": 0.30833333333333335,
+      "field_name_accuracy": 0.4583333333333333,
+      "field_size_accuracy": 0.5416666666666666,
+      "field_quantity_accuracy": 0.6666666666666666,
+      "field_modifiers_accuracy": 0.41666666666666663,
+      "total_price_exact": 0.0,
+      "total_price_absolute_error": 4.6
+    },
+    "negation": {
+      "full_exact_match": 0.0,
+      "item_match_precision": 0.41666666666666663,
+      "item_match_recall": 0.41666666666666663,
+      "item_match_f1": 0.41666666666666663,
+      "field_name_accuracy": 0.25,
+      "field_size_accuracy": 0.41666666666666663,
+      "field_quantity_accuracy": 0.8333333333333333,
+      "field_modifiers_accuracy": 0.5,
+      "total_price_exact": 0.0,
+      "total_price_absolute_error": 8.125
+    },
+    "multi_item": {
+      "full_exact_match": 0.0,
+      "item_match_precision": 0.33333333333333337,
+      "item_match_recall": 0.3095238095238095,
+      "item_match_f1": 0.3190476190476191,
+      "field_name_accuracy": 0.4880952380952381,
+      "field_size_accuracy": 0.5357142857142857,
+      "field_quantity_accuracy": 0.6071428571428571,
+      "field_modifiers_accuracy": 0.38095238095238093,
+      "total_price_exact": 0.0,
+      "total_price_absolute_error": 13.721428571428572
+    },
+    "long_context": {
+      "full_exact_match": 0.0,
+      "item_match_precision": 0.41666666666666663,
+      "item_match_recall": 0.3333333333333333,
+      "item_match_f1": 0.3666666666666667,
+      "field_name_accuracy": 0.3333333333333333,
+      "field_size_accuracy": 0.5,
+      "field_quantity_accuracy": 0.6666666666666666,
+      "field_modifiers_accuracy": 0.16666666666666666,
+      "total_price_exact": 0.0,
+      "total_price_absolute_error": 7.699999999999999
+    }
+  },
+  "k_folds": 5,
+  "fold_overall_metrics": [
+    {
+      "full_exact_match": 0.0,
+      "item_match_precision": 0.33333333333333337,
+      "item_match_recall": 0.3095238095238095,
+      "item_match_f1": 0.3190476190476191,
+      "field_name_accuracy": 0.4880952380952381,
+      "field_size_accuracy": 0.5357142857142857,
+      "field_quantity_accuracy": 0.6071428571428571,
+      "field_modifiers_accuracy": 0.38095238095238093,
+      "total_price_exact": 0.0,
+      "total_price_absolute_error": 13.685714285714285
+    },
+    {
+      "full_exact_match": 0.0,
+      "item_match_precision": 0.5,
+      "item_match_recall": 0.5,
+      "item_match_f1": 0.5,
+      "field_name_accuracy": 1.0,
+      "field_size_accuracy": 1.0,
+      "field_quantity_accuracy": 0.5,
+      "field_modifiers_accuracy": 0.5,
+      "total_price_exact": 0.0,
+      "total_price_absolute_error": 4.125
+    },
+    {
+      "full_exact_match": 1.0,
+      "item_match_precision": 1.0,
+      "item_match_recall": 1.0,
+      "item_match_f1": 1.0,
+      "field_name_accuracy": 1.0,
+      "field_size_accuracy": 1.0,
+      "field_quantity_accuracy": 1.0,
+      "field_modifiers_accuracy": 1.0,
+      "total_price_exact": 1.0,
+      "total_price_absolute_error": 0.0
+    },
+    {},
+    {}
+  ]
+}

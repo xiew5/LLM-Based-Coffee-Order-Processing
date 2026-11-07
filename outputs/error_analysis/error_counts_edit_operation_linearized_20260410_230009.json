@@ -1,0 +1,10 @@
+{
+  "wrong_total_price": 9,
+  "wrong_modifier": 6,
+  "cancellation_failure": 4,
+  "correction_failure": 3,
+  "missing_item": 3,
+  "wrong_size": 3,
+  "negation_failure": 2,
+  "wrong_quantity": 2
+}

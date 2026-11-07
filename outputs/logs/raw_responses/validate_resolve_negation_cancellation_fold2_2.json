@@ -1,0 +1,16 @@
+{
+  "model": "qwen2.5-coder:7b-instruct",
+  "created_at": "2026-04-10T21:53:53.814519Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\"items\": [{\"name\": \"Mocha\", \"size\": \"Trenta\", \"quantity\": 1, \"modifiers\": [\"Peppermint Syrup\"]}], \"total_price\": 6.25}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 11502902708,
+  "load_duration": 87090875,
+  "prompt_eval_count": 1211,
+  "prompt_eval_duration": 3174560792,
+  "eval_count": 46,
+  "eval_duration": 8204693126
+}

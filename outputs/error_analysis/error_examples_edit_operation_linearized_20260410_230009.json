@@ -1,0 +1,1602 @@
+{
+  "cancellation_failure": [
+    {
+      "id": 0,
+      "text": "Lemme get one tall Strawberry Smoothie include caramel drizzle - remove uh that. Next, I need a like venti drip coffee and extra hot. Oh, and add three trenta chai latte include Sugar Free Vanilla... scratch that one Sugar Free Vanilla. caramel drizzle and make sure no whip. Oh, and add double short mochas.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 3,
+            "modifiers": [
+              "Caramel Drizzle",
+              "No Whip"
+            ]
+          },
+          {
+            "name": "Mocha",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": []
+          }
+        ],
+        "total_price": 32.75
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Strawberry Smoothie",
+            "size": null,
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 2,
+            "modifiers": [
+              "Sugar Free Vanilla",
+              "Vanilla",
+              "Caramel Drizzle",
+              "Caramel"
+            ]
+          }
+        ],
+        "total_price": 31.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 5,
+      "text": "Start me off with couple of Short FRAPPE (MOCHA)s include LIGHT ICE add CARAMEL SYRUP. Then give me a venti cold brew add breve, wait cancel that breve. coconut milk plus Hazelnut Syrup... wait cancel that Hazelnut Syrup... soy milk add almond milk. Also a Tall iced coffee.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Light Ice",
+              "Caramel Syrup"
+            ]
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Coconut Milk",
+              "Soy Milk",
+              "Almond Milk"
+            ]
+          },
+          {
+            "name": "Iced Coffee",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 21.65
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Caramel",
+              "Ice"
+            ]
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Coconut Milk",
+              "Almond Milk",
+              "Soy Milk"
+            ]
+          },
+          {
+            "name": "Iced Coffee",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 24.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 6,
+      "text": "Gimme single BUTTER actually CROISSANT. no, make it four. Also single trenta green tea and single blueberry muffin - actually nevermind.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Butter Croissant",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          },
+          {
+            "name": "Green Tea",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 18.5
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Butter Croissant",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          },
+          {
+            "name": "Blueberry Muffin",
+            "size": null,
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 20.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 9,
+      "text": "Could you get me a Bagel. Oh, and add one TALL Latte plus um vanilla syrup. remove that vanilla syrup. Extra Shot. Also single bagel.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Bagel",
+            "size": null,
+            "quantity": 2,
+            "modifiers": []
+          },
+          {
+            "name": "Latte",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Shot"
+            ]
+          }
+        ],
+        "total_price": 10.5
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Bagel",
+            "size": null,
+            "quantity": 2,
+            "modifiers": []
+          },
+          {
+            "name": "Latte",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": [
+              "Vanilla Syrup",
+              "Extra Shot"
+            ]
+          }
+        ],
+        "total_price": 10.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    }
+  ],
+  "negation_failure": [
+    {
+      "id": 0,
+      "text": "Lemme get one tall Strawberry Smoothie include caramel drizzle - remove uh that. Next, I need a like venti drip coffee and extra hot. Oh, and add three trenta chai latte include Sugar Free Vanilla... scratch that one Sugar Free Vanilla. caramel drizzle and make sure no whip. Oh, and add double short mochas.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 3,
+            "modifiers": [
+              "Caramel Drizzle",
+              "No Whip"
+            ]
+          },
+          {
+            "name": "Mocha",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": []
+          }
+        ],
+        "total_price": 32.75
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Strawberry Smoothie",
+            "size": null,
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 2,
+            "modifiers": [
+              "Sugar Free Vanilla",
+              "Vanilla",
+              "Caramel Drizzle",
+              "Caramel"
+            ]
+          }
+        ],
+        "total_price": 31.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 6,
+      "text": "Gimme single BUTTER actually CROISSANT. no, make it four. Also single trenta green tea and single blueberry muffin - actually nevermind.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Butter Croissant",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          },
+          {
+            "name": "Green Tea",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 18.5
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Butter Croissant",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          },
+          {
+            "name": "Blueberry Muffin",
+            "size": null,
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 20.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    }
+  ],
+  "wrong_modifier": [
+    {
+      "id": 0,
+      "text": "Lemme get one tall Strawberry Smoothie include caramel drizzle - remove uh that. Next, I need a like venti drip coffee and extra hot. Oh, and add three trenta chai latte include Sugar Free Vanilla... scratch that one Sugar Free Vanilla. caramel drizzle and make sure no whip. Oh, and add double short mochas.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 3,
+            "modifiers": [
+              "Caramel Drizzle",
+              "No Whip"
+            ]
+          },
+          {
+            "name": "Mocha",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": []
+          }
+        ],
+        "total_price": 32.75
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Strawberry Smoothie",
+            "size": null,
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 2,
+            "modifiers": [
+              "Sugar Free Vanilla",
+              "Vanilla",
+              "Caramel Drizzle",
+              "Caramel"
+            ]
+          }
+        ],
+        "total_price": 31.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 1,
+      "text": "I'd like to order single trenta espresso add oat milk, paired with a tall actually earl grey tea. Oh, and add couple of tall Cold literally Brew with breve.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Espresso",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Oat Milk"
+            ]
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": [
+              "Breve"
+            ]
+          }
+        ],
+        "total_price": 18.4
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Earl Grey Tea",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Oat Milk"
+            ]
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": [
+              "Breve"
+            ]
+          }
+        ],
+        "total_price": 14.0
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 5,
+      "text": "Start me off with couple of Short FRAPPE (MOCHA)s include LIGHT ICE add CARAMEL SYRUP. Then give me a venti cold brew add breve, wait cancel that breve. coconut milk plus Hazelnut Syrup... wait cancel that Hazelnut Syrup... soy milk add almond milk. Also a Tall iced coffee.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Light Ice",
+              "Caramel Syrup"
+            ]
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Coconut Milk",
+              "Soy Milk",
+              "Almond Milk"
+            ]
+          },
+          {
+            "name": "Iced Coffee",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 21.65
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Caramel",
+              "Ice"
+            ]
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Coconut Milk",
+              "Almond Milk",
+              "Soy Milk"
+            ]
+          },
+          {
+            "name": "Iced Coffee",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 24.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 7,
+      "text": "Hit me with pair of TALL chai lattes, plus five venti frappe (mocha) plus cold foam and single short matcha latte and triple venti earl like grey teas.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Chai Latte",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": []
+          },
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Venti",
+            "quantity": 5,
+            "modifiers": [
+              "Cold Foam"
+            ]
+          },
+          {
+            "name": "Matcha Latte",
+            "size": "Short",
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Venti",
+            "quantity": 3,
+            "modifiers": []
+          }
+        ],
+        "total_price": 66.25
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Matcha Latte",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Cold Foam",
+              "Foam"
+            ]
+          }
+        ],
+        "total_price": 10.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 9,
+      "text": "Could you get me a Bagel. Oh, and add one TALL Latte plus um vanilla syrup. remove that vanilla syrup. Extra Shot. Also single bagel.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Bagel",
+            "size": null,
+            "quantity": 2,
+            "modifiers": []
+          },
+          {
+            "name": "Latte",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Shot"
+            ]
+          }
+        ],
+        "total_price": 10.5
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Bagel",
+            "size": null,
+            "quantity": 2,
+            "modifiers": []
+          },
+          {
+            "name": "Latte",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": [
+              "Vanilla Syrup",
+              "Extra Shot"
+            ]
+          }
+        ],
+        "total_price": 10.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 4,
+      "text": "I'm craving couple of VENTI frappe (mocha)s include Caramel Drizzle.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Venti",
+            "quantity": 2,
+            "modifiers": [
+              "Caramel Drizzle"
+            ]
+          }
+        ],
+        "total_price": 14.5
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Venti",
+            "quantity": 2,
+            "modifiers": [
+              "Caramel Drizzle",
+              "Caramel"
+            ]
+          }
+        ],
+        "total_price": 13.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    }
+  ],
+  "wrong_quantity": [
+    {
+      "id": 0,
+      "text": "Lemme get one tall Strawberry Smoothie include caramel drizzle - remove uh that. Next, I need a like venti drip coffee and extra hot. Oh, and add three trenta chai latte include Sugar Free Vanilla... scratch that one Sugar Free Vanilla. caramel drizzle and make sure no whip. Oh, and add double short mochas.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 3,
+            "modifiers": [
+              "Caramel Drizzle",
+              "No Whip"
+            ]
+          },
+          {
+            "name": "Mocha",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": []
+          }
+        ],
+        "total_price": 32.75
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Strawberry Smoothie",
+            "size": null,
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 2,
+            "modifiers": [
+              "Sugar Free Vanilla",
+              "Vanilla",
+              "Caramel Drizzle",
+              "Caramel"
+            ]
+          }
+        ],
+        "total_price": 31.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 1,
+      "text": "I'd like to order single trenta espresso add oat milk, paired with a tall actually earl grey tea. Oh, and add couple of tall Cold literally Brew with breve.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Espresso",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Oat Milk"
+            ]
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": [
+              "Breve"
+            ]
+          }
+        ],
+        "total_price": 18.4
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Earl Grey Tea",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Oat Milk"
+            ]
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": [
+              "Breve"
+            ]
+          }
+        ],
+        "total_price": 14.0
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    }
+  ],
+  "wrong_size": [
+    {
+      "id": 0,
+      "text": "Lemme get one tall Strawberry Smoothie include caramel drizzle - remove uh that. Next, I need a like venti drip coffee and extra hot. Oh, and add three trenta chai latte include Sugar Free Vanilla... scratch that one Sugar Free Vanilla. caramel drizzle and make sure no whip. Oh, and add double short mochas.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 3,
+            "modifiers": [
+              "Caramel Drizzle",
+              "No Whip"
+            ]
+          },
+          {
+            "name": "Mocha",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": []
+          }
+        ],
+        "total_price": 32.75
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Strawberry Smoothie",
+            "size": null,
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 2,
+            "modifiers": [
+              "Sugar Free Vanilla",
+              "Vanilla",
+              "Caramel Drizzle",
+              "Caramel"
+            ]
+          }
+        ],
+        "total_price": 31.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 6,
+      "text": "Gimme single BUTTER actually CROISSANT. no, make it four. Also single trenta green tea and single blueberry muffin - actually nevermind.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Butter Croissant",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          },
+          {
+            "name": "Green Tea",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 18.5
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Butter Croissant",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          },
+          {
+            "name": "Blueberry Muffin",
+            "size": null,
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 20.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 7,
+      "text": "Hit me with pair of TALL chai lattes, plus five venti frappe (mocha) plus cold foam and single short matcha latte and triple venti earl like grey teas.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Chai Latte",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": []
+          },
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Venti",
+            "quantity": 5,
+            "modifiers": [
+              "Cold Foam"
+            ]
+          },
+          {
+            "name": "Matcha Latte",
+            "size": "Short",
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Venti",
+            "quantity": 3,
+            "modifiers": []
+          }
+        ],
+        "total_price": 66.25
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Matcha Latte",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Cold Foam",
+              "Foam"
+            ]
+          }
+        ],
+        "total_price": 10.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    }
+  ],
+  "wrong_total_price": [
+    {
+      "id": 0,
+      "text": "Lemme get one tall Strawberry Smoothie include caramel drizzle - remove uh that. Next, I need a like venti drip coffee and extra hot. Oh, and add three trenta chai latte include Sugar Free Vanilla... scratch that one Sugar Free Vanilla. caramel drizzle and make sure no whip. Oh, and add double short mochas.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 3,
+            "modifiers": [
+              "Caramel Drizzle",
+              "No Whip"
+            ]
+          },
+          {
+            "name": "Mocha",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": []
+          }
+        ],
+        "total_price": 32.75
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Strawberry Smoothie",
+            "size": null,
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Drip Coffee",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Extra Hot"
+            ]
+          },
+          {
+            "name": "Chai Latte",
+            "size": "Trenta",
+            "quantity": 2,
+            "modifiers": [
+              "Sugar Free Vanilla",
+              "Vanilla",
+              "Caramel Drizzle",
+              "Caramel"
+            ]
+          }
+        ],
+        "total_price": 31.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 1,
+      "text": "I'd like to order single trenta espresso add oat milk, paired with a tall actually earl grey tea. Oh, and add couple of tall Cold literally Brew with breve.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Espresso",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Oat Milk"
+            ]
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": [
+              "Breve"
+            ]
+          }
+        ],
+        "total_price": 18.4
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Earl Grey Tea",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Oat Milk"
+            ]
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": [
+              "Breve"
+            ]
+          }
+        ],
+        "total_price": 14.0
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 5,
+      "text": "Start me off with couple of Short FRAPPE (MOCHA)s include LIGHT ICE add CARAMEL SYRUP. Then give me a venti cold brew add breve, wait cancel that breve. coconut milk plus Hazelnut Syrup... wait cancel that Hazelnut Syrup... soy milk add almond milk. Also a Tall iced coffee.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Light Ice",
+              "Caramel Syrup"
+            ]
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Coconut Milk",
+              "Soy Milk",
+              "Almond Milk"
+            ]
+          },
+          {
+            "name": "Iced Coffee",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 21.65
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Caramel",
+              "Ice"
+            ]
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Coconut Milk",
+              "Almond Milk",
+              "Soy Milk"
+            ]
+          },
+          {
+            "name": "Iced Coffee",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 24.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 6,
+      "text": "Gimme single BUTTER actually CROISSANT. no, make it four. Also single trenta green tea and single blueberry muffin - actually nevermind.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Butter Croissant",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          },
+          {
+            "name": "Green Tea",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 18.5
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Butter Croissant",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          },
+          {
+            "name": "Blueberry Muffin",
+            "size": null,
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 20.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 7,
+      "text": "Hit me with pair of TALL chai lattes, plus five venti frappe (mocha) plus cold foam and single short matcha latte and triple venti earl like grey teas.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Chai Latte",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": []
+          },
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Venti",
+            "quantity": 5,
+            "modifiers": [
+              "Cold Foam"
+            ]
+          },
+          {
+            "name": "Matcha Latte",
+            "size": "Short",
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Venti",
+            "quantity": 3,
+            "modifiers": []
+          }
+        ],
+        "total_price": 66.25
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Matcha Latte",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Cold Foam",
+              "Foam"
+            ]
+          }
+        ],
+        "total_price": 10.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 8,
+      "text": "May I get a short literally chai latte with Hazelnut Syrup.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Chai Latte",
+            "size": "Short",
+            "quantity": 1,
+            "modifiers": [
+              "Hazelnut Syrup"
+            ]
+          }
+        ],
+        "total_price": 4.75
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Chai Latte",
+            "size": "Short",
+            "quantity": 1,
+            "modifiers": [
+              "Hazelnut Syrup"
+            ]
+          }
+        ],
+        "total_price": 3.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 2,
+      "text": "Could I have single trenta mocha plus peppermint syrup.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Mocha",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Peppermint Syrup"
+            ]
+          }
+        ],
+        "total_price": 7.0
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Mocha",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Peppermint Syrup"
+            ]
+          }
+        ],
+        "total_price": 6.25
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 4,
+      "text": "I'm craving couple of VENTI frappe (mocha)s include Caramel Drizzle.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Venti",
+            "quantity": 2,
+            "modifiers": [
+              "Caramel Drizzle"
+            ]
+          }
+        ],
+        "total_price": 14.5
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Venti",
+            "quantity": 2,
+            "modifiers": [
+              "Caramel Drizzle",
+              "Caramel"
+            ]
+          }
+        ],
+        "total_price": 13.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 3,
+      "text": "Grab me four avocado toasts.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Avocado Toast",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          }
+        ],
+        "total_price": 28.0
+      },
+      "pred_obj": {
+        "items": [],
+        "total_price": 0
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    }
+  ],
+  "correction_failure": [
+    {
+      "id": 1,
+      "text": "I'd like to order single trenta espresso add oat milk, paired with a tall actually earl grey tea. Oh, and add couple of tall Cold literally Brew with breve.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Espresso",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Oat Milk"
+            ]
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": [
+              "Breve"
+            ]
+          }
+        ],
+        "total_price": 18.4
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Earl Grey Tea",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Oat Milk"
+            ]
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": [
+              "Breve"
+            ]
+          }
+        ],
+        "total_price": 14.0
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 5,
+      "text": "Start me off with couple of Short FRAPPE (MOCHA)s include LIGHT ICE add CARAMEL SYRUP. Then give me a venti cold brew add breve, wait cancel that breve. coconut milk plus Hazelnut Syrup... wait cancel that Hazelnut Syrup... soy milk add almond milk. Also a Tall iced coffee.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Light Ice",
+              "Caramel Syrup"
+            ]
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Coconut Milk",
+              "Soy Milk",
+              "Almond Milk"
+            ]
+          },
+          {
+            "name": "Iced Coffee",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 21.65
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Caramel",
+              "Ice"
+            ]
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Venti",
+            "quantity": 1,
+            "modifiers": [
+              "Coconut Milk",
+              "Almond Milk",
+              "Soy Milk"
+            ]
+          },
+          {
+            "name": "Iced Coffee",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 24.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 6,
+      "text": "Gimme single BUTTER actually CROISSANT. no, make it four. Also single trenta green tea and single blueberry muffin - actually nevermind.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Butter Croissant",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          },
+          {
+            "name": "Green Tea",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 18.5
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Butter Croissant",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          },
+          {
+            "name": "Blueberry Muffin",
+            "size": null,
+            "quantity": 1,
+            "modifiers": []
+          }
+        ],
+        "total_price": 20.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    }
+  ],
+  "missing_item": [
+    {
+      "id": 1,
+      "text": "I'd like to order single trenta espresso add oat milk, paired with a tall actually earl grey tea. Oh, and add couple of tall Cold literally Brew with breve.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Espresso",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Oat Milk"
+            ]
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Tall",
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Cold Brew",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": [
+              "Breve"
+            ]
+          }
+        ],
+        "total_price": 18.4
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Earl Grey Tea",
+            "size": "Trenta",
+            "quantity": 1,
+            "modifiers": [
+              "Oat Milk"
+            ]
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": [
+              "Breve"
+            ]
+          }
+        ],
+        "total_price": 14.0
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 7,
+      "text": "Hit me with pair of TALL chai lattes, plus five venti frappe (mocha) plus cold foam and single short matcha latte and triple venti earl like grey teas.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Chai Latte",
+            "size": "Tall",
+            "quantity": 2,
+            "modifiers": []
+          },
+          {
+            "name": "Frappe (Mocha)",
+            "size": "Venti",
+            "quantity": 5,
+            "modifiers": [
+              "Cold Foam"
+            ]
+          },
+          {
+            "name": "Matcha Latte",
+            "size": "Short",
+            "quantity": 1,
+            "modifiers": []
+          },
+          {
+            "name": "Earl Grey Tea",
+            "size": "Venti",
+            "quantity": 3,
+            "modifiers": []
+          }
+        ],
+        "total_price": 66.25
+      },
+      "pred_obj": {
+        "items": [
+          {
+            "name": "Matcha Latte",
+            "size": "Short",
+            "quantity": 2,
+            "modifiers": [
+              "Cold Foam",
+              "Foam"
+            ]
+          }
+        ],
+        "total_price": 10.5
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    },
+    {
+      "id": 3,
+      "text": "Grab me four avocado toasts.",
+      "gold_obj": {
+        "items": [
+          {
+            "name": "Avocado Toast",
+            "size": null,
+            "quantity": 4,
+            "modifiers": []
+          }
+        ],
+        "total_price": 28.0
+      },
+      "pred_obj": {
+        "items": [],
+        "total_price": 0
+      },
+      "parse_errors": [],
+      "strategy": "edit_operation_linearized"
+    }
+  ]
+}

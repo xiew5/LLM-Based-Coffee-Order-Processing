@@ -1,0 +1,16 @@
+{
+  "model": "qwen2.5-coder:7b-instruct",
+  "created_at": "2026-04-10T21:59:32.499761Z",
+  "message": {
+    "role": "assistant",
+    "content": "```json\n{\n  \"items\": [\n    {\n      \"name\": \"Bagel\",\n      \"size\": null,\n      \"quantity\": 2,\n      \"modifiers\": []\n    },\n    {\n      \"name\": \"Latte\",\n      \"size\": \"Tall\",\n      \"quantity\": 1,\n      \"modifiers\": [\"Vanilla Syrup\", \"Extra Shot\"]\n    }\n  ],\n  \"total_price\": 10.5\n}\n```"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 18760732625,
+  "load_duration": 86818000,
+  "prompt_eval_count": 1197,
+  "prompt_eval_duration": 977258750,
+  "eval_count": 96,
+  "eval_duration": 17639809295
+}

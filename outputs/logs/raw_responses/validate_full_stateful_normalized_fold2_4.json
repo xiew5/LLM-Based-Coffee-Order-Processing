@@ -1,0 +1,16 @@
+{
+  "model": "qwen2.5-coder:7b-instruct",
+  "created_at": "2026-04-10T22:02:43.052176Z",
+  "message": {
+    "role": "assistant",
+    "content": "```json\n{\n  \"items\": [\n    {\n      \"name\": \"Frappe (Mocha)\",\n      \"size\": \"Venti\",\n      \"quantity\": 1,\n      \"modifiers\": [\"Caramel Drizzle\", \"Caramel\"]\n    }\n  ],\n  \"total_price\": 7.00\n}\n```"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 13248902166,
+  "load_duration": 87784958,
+  "prompt_eval_count": 1212,
+  "prompt_eval_duration": 516450417,
+  "eval_count": 70,
+  "eval_duration": 12593406335
+}

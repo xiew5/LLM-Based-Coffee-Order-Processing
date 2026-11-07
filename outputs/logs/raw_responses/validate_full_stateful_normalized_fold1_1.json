@@ -1,0 +1,16 @@
+{
+  "model": "qwen2.5-coder:7b-instruct",
+  "created_at": "2026-04-10T22:00:53.627279Z",
+  "message": {
+    "role": "assistant",
+    "content": "```json\n{\n  \"items\": [\n    {\n      \"name\": \"Earl Grey Tea\",\n      \"size\": \"Tall\",\n      \"quantity\": 1,\n      \"modifiers\": [\"Oat Milk\", \"Breve\"]\n    }\n  ],\n  \"total_price\": 3.50\n}\n```"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 12731271542,
+  "load_duration": 88198959,
+  "prompt_eval_count": 1149,
+  "prompt_eval_duration": 588962583,
+  "eval_count": 67,
+  "eval_duration": 12006909545
+}

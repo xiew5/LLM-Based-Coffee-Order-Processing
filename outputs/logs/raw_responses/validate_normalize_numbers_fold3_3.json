@@ -1,0 +1,16 @@
+{
+  "model": "qwen2.5-coder:7b-instruct",
+  "created_at": "2026-04-10T21:47:56.010557Z",
+  "message": {
+    "role": "assistant",
+    "content": "```json\n{\n  \"items\": [\n    {\n      \"name\": \"Avocado Toast\",\n      \"size\": null,\n      \"quantity\": 4,\n      \"modifiers\": []\n    }\n  ],\n  \"total_price\": 28.00\n}\n```"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 16141758291,
+  "load_duration": 88536875,
+  "prompt_eval_count": 1400,
+  "prompt_eval_duration": 5860675167,
+  "eval_count": 57,
+  "eval_duration": 10150544285
+}
